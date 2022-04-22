@@ -19,4 +19,7 @@ I have been mostly a silent participant of the Haskell community for more than 1
 
 I’m a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer). I’ve worked remotely for a US based company or with the South African team of another one. I have worked with Java projects with all the Hibernate/Struts frameworks using all the object oriented patterns you can imagine or with big PHP spaghetti codebase.
 
+The best way to evolve the code or understand legacy code is refactoring it, making small steps until it gets easier to understand and fix errors.
+When extracting, renaming, refactoring in general I follow the steps detailed in [Martin Fowler's book Refactoring](https://refactoring.com/). Although it's mostly object oriented the methodology can still be applied to functional programming.
+
 Linkedin: https://www.linkedin.com/in/fmaste/
