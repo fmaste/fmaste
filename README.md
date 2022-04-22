@@ -17,6 +17,6 @@ I have been mostly a silent participant of the Haskell community for more than 1
 - https://github.com/fmaste/hansible
   - A little tool to generate a Graphviz DOT description file from Ansible hosts.
 
-I’m a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer)
+I’m a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer). I’ve worked remotely for a US based company or with the South African team of another one. I have worked with Java projects with all the Hibernate/Struts frameworks using all the object oriented patterns you can imagine or with big PHP spaghetti codebase.
 
 Linkedin: https://www.linkedin.com/in/fmaste/
