@@ -26,4 +26,8 @@ Evolving the code without testing is dangerous. But also, a test that passes onl
 
 Having code that looks nice and everybody can understand is important. The style guidelines can vary from company to company (and generate a lot of [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality)) but I always try to be as standard as possible and use as few dependencies as possible.
 
+> “Premature optimization is the root of all evil”
+> 
+> Donald Knuth.
+
 Linkedin: https://www.linkedin.com/in/fmaste/
