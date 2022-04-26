@@ -1,5 +1,5 @@
 # Federico Mastellone
-B.S. in Computer Science Engineer, [ITBA](https://www.itba.edu.ar/)
+B.S. in Computer Science Engineering, [ITBA](https://www.itba.edu.ar/)
 
 I have been mostly a silent participant of the Haskell community for more than 10 years. I made [contributions](https://github.com/haskell/cabal/pull/3670) to [Haskell's Cabal package manager](https://www.haskell.org/cabal/) when I needed for a private project and read the most significant papers and books, from "[A History of Haskell: Being Lazy with Class](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf)" to "[Parallel and Concurrent Programming in Haskell](https://simonmar.github.io/pages/pcph.html)"
 
