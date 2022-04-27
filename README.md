@@ -8,8 +8,8 @@ But mostly, I have been a silent participant of the Haskell community for more t
 - https://fmaste.github.io/Haskell/
   - Still a work-in-progress. Building a little summary of everything I have read and know about Haskell and Theoretical Computer Science.
     For example:
-    - [Notes](https://fmaste.github.io/Haskell/doc/EDSL) and [source code](https://github.com/fmaste/Haskell/blob/master/src/EDSL.hs) about different ways of building an EDSL in Haskell.
     - [Type Checking and Type Inference in Action](https://fmaste.github.io/Haskell/doc/TypeCheckingAndInference.html)
+    - [Notes](https://fmaste.github.io/Haskell/doc/EDSL) and [source code](https://github.com/fmaste/Haskell/blob/master/src/EDSL.hs) about different ways of building an EDSL in Haskell.
 - https://github.com/fmaste/Helenium
   - I built my first Haskell tool used in production at the end of 2011.
     Tired of having to test before and after every release at work, I built my own domain specific language embedded in Haskell (EDSL) to avoid doing manual testing.
