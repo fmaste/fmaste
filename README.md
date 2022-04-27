@@ -1,7 +1,7 @@
 # Federico Mastellone
 B.S. in Computer Science Engineering, [ITBA](https://www.itba.edu.ar/)
 
-I’m a Scrum Alliance Certified Scrum Developer and I have been following agile practices for many years, on-site or remotely with companies from different regions. I have worked in Java projects with the usual Hibernate/Struts frameworks and used all the object oriented patterns you can imagine, mostly when trying to make sense of big spaghetti PHP codebases.
+I’m a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer) and I have been following agile practices for many years, on-site or remotely with companies from different regions. I have worked in Java projects with the usual Hibernate/Struts frameworks and used all the object oriented patterns you can imagine, mostly when trying to make sense of big spaghetti PHP codebases.
 
 But mostly, I have been a silent participant of the Haskell community for more than 10 years. I made [contributions](https://github.com/haskell/cabal/pull/3670) to [Haskell's Cabal package manager](https://www.haskell.org/cabal/) when I needed for a private project and read the most significant papers and books, from "[A History of Haskell: Being Lazy with Class](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf)" to "[Parallel and Concurrent Programming in Haskell](https://simonmar.github.io/pages/pcph.html)"
 
@@ -23,8 +23,6 @@ But mostly, I have been a silent participant of the Haskell community for more t
   - The web console mentioned above was built with a JavaScript MVC framework I created.
 - https://github.com/fmaste/hansible
   - A little tool to generate a Graphviz DOT description file from Ansible hosts.
-
-I’m a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer) and I have been following agile practices for many years, on-site or remotely with companies from different regions. I have worked in Java projects with the usual Hibernate/Struts frameworks and used all the object oriented patterns you can imagine, mostly when trying to make sense of big spaghetti PHP codebases.
 
 The best way to evolve the code or understand legacy code is refactoring it, making small steps until it gets easier to understand and fix errors.
 When extracting, renaming, refactoring in general I follow the steps detailed in [Martin Fowler's book Refactoring](https://refactoring.com/). Although it's mostly object oriented the methodology can still be applied to functional programming (The downside of trying to do small / atomic commits is that you have to remember to [merge squash](https://git-scm.com/docs/git-merge#Documentation/git-merge.txt---squash) to keep the log uncluttered.).
