@@ -16,6 +16,7 @@ But mostly, I have been a silent participant of the Haskell community for more t
   - Still a work-in-progress. Building a little summary of everything I have read and know about Haskell and Theoretical Computer Science.
     For example:
     - [Type Checking and Type Inference in Action](https://fmaste.github.io/Haskell/doc/TypeCheckingAndInference.html)
+    - [Evaluation Strategies - Lazy vs. Non-Strict](https://fmaste.github.io/Haskell/doc/EvaluationStrategies.html)
     - [Notes](https://fmaste.github.io/Haskell/doc/EDSL) and [source code](https://github.com/fmaste/Haskell/blob/master/src/EDSL.hs) about different ways of building an EDSL in Haskell.
 - https://github.com/fmaste/Helenium
   - I built my first Haskell tool used in production at the end of 2011.
