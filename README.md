@@ -47,7 +47,7 @@ But to find errors you need proper testing, ***"Program testing can be used to s
 The best way to evolve the code or understand legacy code is refactoring it, making small steps until it gets easier to understand and fix errors.
 When extracting, renaming, refactoring in general I follow the steps detailed in [Martin Fowler's book Refactoring](https://refactoring.com/). Although it's mostly object oriented the methodology can still be applied to functional programming (The downside of doing small / atomic commits is that you have to remember to [merge squash](https://git-scm.com/docs/git-merge#Documentation/git-merge.txt---squash) to keep the log uncluttered).
 
-Having code that looks nice and everybody can understand is important. Style guidelines can vary from company to company (and generate a lot of [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality)) but I always try to be as standard as possible and use as few dependencies as possible.
+Having code that looks nice and everybody can understand is important. Style guidelines can vary from company to company (and generate a lot of [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality)) but I always try to be as standard as possible and use as few dependencies as possible (back to "don’t overbuild" mentioned at the begining).
 
 ## External
 
