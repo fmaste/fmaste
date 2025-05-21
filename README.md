@@ -32,22 +32,22 @@ But mostly, I have been a silent participant of the Haskell community for more t
 - https://github.com/fmaste/hansible
   - A little tool to generate a Graphviz DOT description file from Ansible hosts.
 
-## Principles
+## My Development Philosophy
 
 > “Premature optimization is the root of all evil”
 > 
 > Donald Knuth.
 
-Always keep it simple and don’t overbuild.
+- Simplicity & Minimalism: Prioritizing straightforward solutions and avoiding unnecessary complexity or over-engineering. I strive for minimal dependencies to ensure long-term stability and ease of maintenance.
 
-If you're going to break something you better break it early, committing and merging often is a good practice and when an error is found it's complemented very well with [git-bisect](https://git-scm.com/docs/git-bisect).
+- Early Feedback & Continuous Integration: If you're going to break something you better break it early, committing and merging often is a good practice and when an error is found it's complemented very well with [git-bisect](https://git-scm.com/docs/git-bisect).
 
-But to find errors you need proper testing, ***"Program testing can be used to show the presence of bugs, but never to show their absence!"***. So in addition to defining the base cases by induction with [HUnit](https://hackage.haskell.org/package/HUnit), I use [QuickCheck](https://hackage.haskell.org/package/QuickCheck) and [Hedgehog](https://hackage.haskell.org/package/hedgehog), that coupled [GitHub Actions](https://github.com/features/actions) are your best friends. Evolving code without testing is dangerous!
+- Rigorous Testing: But to find errors you need proper testing, ***"Program testing can be used to show the presence of bugs, but never to show their absence!"***. So in addition to defining the base cases by induction with [HUnit](https://hackage.haskell.org/package/HUnit), I use [QuickCheck](https://hackage.haskell.org/package/QuickCheck) and [Hedgehog](https://hackage.haskell.org/package/hedgehog), that coupled [GitHub Actions](https://github.com/features/actions) are your best friends. Evolving code without testing is dangerous!
 
-The best way to evolve the code or understand legacy code is refactoring it, making small steps until it gets easier to understand and fix errors.
+- Continuous Refactoring: The best way to evolve the code or understand legacy code is refactoring it, making small steps until it gets easier to understand and fix errors.
 When extracting, renaming, refactoring in general I follow the steps detailed in [Martin Fowler's book Refactoring](https://refactoring.com/). Although it's mostly object oriented the methodology can still be applied to functional programming (The downside of doing small / atomic commits is that you have to remember to [merge squash](https://git-scm.com/docs/git-merge#Documentation/git-merge.txt---squash) to keep the log uncluttered).
 
-Having code that looks nice and everybody can understand is important. Style guidelines can vary from company to company (and generate a lot of [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality)) but I always try to be as standard as possible and use as few dependencies as possible (back to "don’t overbuild" mentioned at the begining).
+- Code Readability & Standardization: Having code that looks nice and everybody can understand is important. Style guidelines can vary from company to company and get in the way of elegant solutions (and generate a lot of [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality)) but I always try to be as standard as possible and use as few dependencies as possible (back to "don’t overbuild" mentioned at the begining).
 
 ## External
 
