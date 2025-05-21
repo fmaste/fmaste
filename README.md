@@ -6,7 +6,7 @@ B.S. in Computer Science Engineering, [ITBA](https://www.itba.edu.ar/)
 
 ## Summary
 
-I’m a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer) and I have been following agile practices for many years, on-site or remotely with companies from different regions. I have worked in Java projects with the usual Hibernate/Struts frameworks and used all the object oriented patterns you can imagine, mostly when trying to make sense of big spaghetti PHP codebases. In the end I got tired of trying to make everything fit into objects and **switched to functional programming to never look back!**
+I have worked in Java projects with the usual Hibernate/Struts frameworks and used all the object oriented patterns you can imagine, mostly when trying to make sense of big spaghetti PHP codebases. In the end I got tired of trying to make everything fit into objects and **switched to functional programming to never look back!** I have been following agile practices for many years, on-site or remotely with companies from different regions, and while I am a [Scrum Alliance Certified Scrum Developer](https://www.scrumalliance.org/get-certified/developer-track/certified-scrum-developer), this certification was pursued more out of industry expectation rather than a strict adherence to all Scrum principles.
 
 ## Haskell
 
