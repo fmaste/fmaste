@@ -4,14 +4,15 @@ Systems Engineer specialized in Performance, Tracing & Reproducible Infrastructu
 
 ## Summary
 
-I am a systems engineer specialized in performance benchmarking of distributed systems and the infrastructure needed to do it reproducibly: cluster automation, deterministic builds, orchestration, and metrics pipelines. My core tools are Nix, Bash, HashiCorp Nomad, and AWS, with a decade of Haskell behind them.
+I am a systems engineer specialized in performance benchmarking of distributed systems and the infrastructure needed to do it reproducibly: fleet provisioning, node operations, deterministic builds, orchestration, and metrics pipelines. I have worked on Linux for more than 20 years, and it has been my only environment for over a decade, from bare-metal point-of-sale terminals to multi-region cloud fleets. My core tools are Nix, Bash, HashiCorp Nomad, AWS, and PostgreSQL, with a decade of Haskell behind them.
 
 ## Cardano Node Performance & Tracing
 
 I build and operate the benchmarking infrastructure for [cardano-node](https://github.com/IntersectMBO/cardano-node), the software powering the Cardano blockchain. Every cardano-node release is validated on this infrastructure before shipping.
 
 - **Performance reports**: metrics analyzed down to the millisecond, published with each evaluation. Examples: [memory / execution budget evaluation (10.2, 2025)](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) ([PDF](https://updates.cardano.intersectmbo.org/assets/files/execbudget-10.2-mem_scaling-ae344917bf4358c013821b4a7449f283.pdf)), [release performance evaluation (10.1.1, 2024)](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/) ([PDF](https://updates.cardano.intersectmbo.org/assets/files/release-10.1.1.voting-01ee31495edecaf8c36b79c94247919a.pdf)).
-- **Cluster automation**: reproducible benchmarking clusters of 52 AWS machines across three regions, built with Nix, Bash, and HashiCorp Nomad (extended with a custom plugin). Main PRs: [#6544](https://github.com/IntersectMBO/cardano-node/pull/6544), [#6611](https://github.com/IntersectMBO/cardano-node/pull/6611), [#4760](https://github.com/IntersectMBO/cardano-node/pull/4760), [#4852](https://github.com/IntersectMBO/cardano-node/pull/4852), [#5037](https://github.com/IntersectMBO/cardano-node/pull/5037), [#5068](https://github.com/IntersectMBO/cardano-node/pull/5068), [#5129](https://github.com/IntersectMBO/cardano-node/pull/5129).
+- **Fleet provisioning and node operations**: reproducible benchmarking clusters of 52 AWS machines across three regions, administered directly over SSH and automated with Nix, Bash, and HashiCorp Nomad (extended with a custom plugin). Main PRs: [#6544](https://github.com/IntersectMBO/cardano-node/pull/6544), [#6611](https://github.com/IntersectMBO/cardano-node/pull/6611), [#4760](https://github.com/IntersectMBO/cardano-node/pull/4760), [#4852](https://github.com/IntersectMBO/cardano-node/pull/4852), [#5037](https://github.com/IntersectMBO/cardano-node/pull/5037), [#5068](https://github.com/IntersectMBO/cardano-node/pull/5068), [#5129](https://github.com/IntersectMBO/cardano-node/pull/5129).
+- **Low-level performance engineering**: OS-level tuning such as disk-cache behavior for on-disk benchmarks, and analysis of Haskell runtime memory usage and garbage-collector behavior.
 
 ## Nix Build Engineering
 
