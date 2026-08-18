@@ -4,7 +4,7 @@ Systems Engineer specialized in Performance, Tracing & Reproducible Infrastructu
 
 ## Summary
 
-I am a systems engineer specialized in performance benchmarking of distributed systems and the infrastructure needed to do it reproducibly: fleet provisioning, node operations, deterministic builds, orchestration, and metrics pipelines. I have worked on Linux for more than 20 years, and it has been my only environment for over a decade, from bare-metal point-of-sale terminals to multi-region cloud fleets. My core tools are Nix, Bash, HashiCorp Nomad, AWS, and PostgreSQL, with a decade of Haskell behind them.
+I am a systems engineer specialized in performance benchmarking of distributed systems and the infrastructure needed to do it reproducibly: fleet provisioning, node operations, deterministic builds, orchestration, and metrics pipelines. I have worked on Linux for more than 20 years, and it has been my only environment for over a decade, from bare-metal point-of-sale terminals to multi-region cloud fleets. That includes hardware-level work: serial-protocol drivers I designed and implemented for fuel dispensers and fiscal printers, directly from the wire-level protocol specifications. My core tools are Nix, Bash, HashiCorp Nomad, AWS, and PostgreSQL, with a decade of Haskell behind them.
 
 ## Cardano Node Performance & Tracing
 
