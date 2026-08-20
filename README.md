@@ -16,9 +16,9 @@ I build and operate the benchmarking infrastructure for [cardano-node](https://g
 
 ## Nix Build Engineering
 
-I keep large Nix codebases simple, fast, and dependency-light. On cardano-node, a repository with roughly 520 CI jobs, I restructured the Nix code behind the Hydra CI pipeline for optimized cache hits ([#6105](https://github.com/IntersectMBO/cardano-node/pull/6105)): Hydra evaluation time dropped from multiple hours to under 12 minutes, and post-evaluation job processing from over 40 minutes to about 8. This was the final step of a sustained simplification effort ([#5957](https://github.com/IntersectMBO/cardano-node/pull/5957), [#5983](https://github.com/IntersectMBO/cardano-node/pull/5983)), not a one-off.
+I keep large Nix codebases simple, fast, and dependency-light. On cardano-node, a repository with roughly 520 CI jobs, I drove a sustained simplification of the shared Nix code across a series of merged PRs ([#5957](https://github.com/IntersectMBO/cardano-node/pull/5957), [#5983](https://github.com/IntersectMBO/cardano-node/pull/5983)), removing dependencies and optimizing cache hits. The result: Hydra CI evaluation time dropped from multiple hours to under 12 minutes, and post-evaluation job processing from over 40 minutes to about 8, because far fewer files depend on the commit hash, so cached jobs are recognized instead of reprocessed.
 
-Feedback from the CI infrastructure maintainer after #6105:
+Feedback from the CI infrastructure maintainer after [#6105](https://github.com/IntersectMBO/cardano-node/pull/6105):
 
 > "Big improvement from what I've seen already! [...] it looks like there is a solid ~30 minute improvement on the post-eval minimum build time also. Awesome!"
 
