@@ -28,6 +28,7 @@ I have been an active member of the Haskell community for more than 10 years, wi
 
 ## Projects
 
+- [Quadrants](https://quadrants.work) ([source](https://github.com/fmaste/quadrants)): an Eisenhower matrix over GitHub Issues, for prioritizing work across many repositories. A single page with no build step: the clone is the whole program, tokens stay in the browser, and a verification script proves the deployed site matches a reviewable commit (2026).
 - [fmaste.github.io/Haskell](https://fmaste.github.io/Haskell/): Notes on Haskell and theoretical computer science, including [type checking and inference](https://fmaste.github.io/Haskell/doc/TypeCheckingAndInference.html), [evaluation strategies](https://fmaste.github.io/Haskell/doc/EvaluationStrategies.html), and [EDSL design](https://fmaste.github.io/Haskell/doc/EDSL) ([source](https://github.com/fmaste/Haskell/blob/master/src/EDSL.hs)).
 - [Helenium](https://github.com/fmaste/Helenium): A Haskell EDSL for automated browser testing, in production since 2011, with a [web console](https://github.com/fmaste/HeleniumConsole) for creating, editing, and running tests with rich output (screenshots, debug logs, assertions, warnings).
 - [Mafia](https://github.com/fmaste/Mafia): A Cabal alternative with Nix-style reproducible builds, including [research notes on GHC internals](https://github.com/fmaste/Mafia/blob/master/docs/Executable.md) (2016).
